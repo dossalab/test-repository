@@ -4,16 +4,9 @@ class MathProcessor {
 public:
    MathProcessor() {}
 
-   // this function finds a sum of 3 numbers
-   // 
-   // - a - argument 1
-   // - b - argument 2
-   // - c - argument 3
-   //
-   // returns: sum of argument 1 and argument 2 and argument 3
-   int sum(int a, int b, int c)
+   int formula(int a, int b, int c)
    {
-      return a + b + c;
+      return 3 * a * b + c;
    }
 
    int sub(int a, int b)
@@ -22,7 +15,6 @@ public:
       return a - b;
    }
 };
-
 
 int main()
 {
