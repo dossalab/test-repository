@@ -25,7 +25,7 @@ int main()
    std::cout << "hello world!" << std::endl;
 
    std::cout << "sum of " << a << " and " << b << " and " << c
-      << " is " << processor->sum(a, b, c) << std::endl;
+      << " is " << processor->formula(a, b, c) << std::endl;
 
    std::cout << "sub of " << a << " and " << b << " is " << processor->sub(a, b) << std::endl;
 
